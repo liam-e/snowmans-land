@@ -20,7 +20,7 @@ function preload() {
 
 
 function setup() {
-	createCanvas(1280, 720);
+	createCanvas(1200, 800);
 	fill(0);
 
 	rubik = loadFont("res/fonts/rubik.ttf");
