@@ -1,11 +1,4 @@
 class Button {
-
-//     String text;
-//     int x;
-//     int y;
-//     int buttonHeight;
-//     int buttonWidth;
-//     PImage sprite, hoverSprite;
   
     constructor(text, x, y, buttonWidth, buttonHeight, sprite, hoverSprite){
       this.text = text;

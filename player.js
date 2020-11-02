@@ -1,16 +1,6 @@
 class Player {
-
-    // PImage playerSprite;
-    // PVector pos;
-    // float velocity, acceleration;
-    // int x, y, endX, endY;
-    // boolean isSliding;
-    // String slideDirection;
-    // float f;
-    // int numberOfMoves;
   
     constructor(x, y) {
-      this.playerSprite = loadImage("res/sprites/player.png");
       this.x = x; // integer position
       this.y = y;
       this.velocity = 0.2;
@@ -29,7 +19,7 @@ class Player {
     }
   
     drawPlayer() {
-      image(this.playerSprite, level.gridLeft+this.pos.x*level.tileSize, level.gridTop+this.pos.y*level.tileSize);
+      image(playerSprite, level.gridLeft+this.pos.x*level.tileSize, level.gridTop+this.pos.y*level.tileSize);
     }
   
     // Move the player
