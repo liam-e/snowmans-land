@@ -149,9 +149,7 @@ class Level {
       this.drawSnowflakes();
       this.displayUI();
       if (this.levelEnd){
-        console.log("draw player");
         player.drawPlayer();
-        console.log("levelEndPopup");
         this.levelEndPopup();
       }
     }
@@ -265,7 +263,6 @@ class Level {
       } else {
         image(oneStar, width/2-(192/2), height/2-10);
       }
-      console.log("level_num: " + levelNumber + " num levels" + numberOfLevels);
       if (levelNumber <= numberOfLevels){
         nextLevelButton.drawButton();
       } else {
@@ -278,8 +275,6 @@ class Level {
         // create the title background
 
         let intSize = int(width/this.tileSize)+4;
-
-        console.log(intSize);
 
         this.titleBackground = new Array(intSize);
 

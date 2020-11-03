@@ -160,9 +160,6 @@ function loadLevel(numberOfResets, snowflakes) { // int numberOfResets, ArrayLis
 	exitToTitleButton = new Button("Exit to title", rightSide, height / 2 + 105, 230, 63, exitToTitleBtnImg, exitToTitleBtnImgHover);
 	resetButton = new Button("Reset", rightSide, height / 2 + 25, 154, 63, resetBtnImg, resetBtnImgHover);
 	nextLevelButton = new Button("Next level", (width - 216) / 2, (height - 63) / 2 + 110, 216, 63, nextLevelBtnImg, nextLevelBtnImgHover);
-
-
-	console.log("loadLevel done.");
 }
 
 // Display the title screen and animated background
