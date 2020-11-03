@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: #171729;
+    color: #EEE;
+    font-size: 110%;
+}
+
+canvas {
+  width: 1200px;
+  height: 800px;
+}
+
+a {
+    color:#fade96;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.back-link {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
